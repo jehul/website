@@ -46,7 +46,7 @@ div {
 .navEntry {
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: .25px;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: .9em;
 	display: inline-block;
 	margin-top: .2em;
@@ -58,6 +58,7 @@ div {
 	font-size: 5em;
 	font-weight: bold;
 	color: #ffffff;
+
 	text-align: left;
 	margin-right: 20vw;
 	margin-left: 20vw;
@@ -120,9 +121,13 @@ p {
 	height: 100vh;
 	width: 100vw;
 	display: flex;
-	background-image: url("http://www.thepentecostalchurch.net/files/SUTL%20Music%20Conference/Black-and-white-mountains-in-fog.jpg");
+	/*background-image: url("http://www.thepentecostalchurch.net/files/SUTL%20Music%20Conference/Black-and-white-mountains-in-fog.jpg");*/
+	background-image: url('http://www.dejal.com/files/2015/first-mac/1.jpg');
+	background-color: red;
 	background-size: cover;
 	background-position: center;
+
+	background-blend-mode: difference;
 }
 #page2 {
 	display: inline-block;
@@ -180,10 +185,6 @@ p {
 }
 
 
-#contactMe {
-	/*text-align: right;*/
-}
-
 .email {
 	display: inline;
 	font-size: 1.4em;
@@ -191,4 +192,20 @@ p {
 
 	
 }
+
+
+#contactLogos {
+		margin-left: 4vw;
+
+}
+.iconLink {
+	display: inline-block;	
+}
+
+.logo {
+	display:inline-block; 
+	height: em;
+	width: 3em;
+}
+
 
