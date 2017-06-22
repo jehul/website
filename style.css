@@ -148,6 +148,10 @@ p {
 	display: inline-block;
 }
 
+.playlist {
+	display: inline;
+}
+
 #page5 {
 	display: inline-block;
 
@@ -156,7 +160,7 @@ p {
 #subpage4 {
 	/*background-color: #FF0000;*/
 	display: : inline-block;
-	width: 50vw;
+	width: 100vw;
 	margin: 0 auto;
 	margin-right: 5vw;
 	margin-left: 5vw;
