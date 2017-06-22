@@ -154,6 +154,7 @@ p {
 
 #page5 {
 	display: inline-block;
+	background-color: #d3d3d3;
 
 }
 
@@ -163,8 +164,9 @@ p {
 	width: 100vw;
 	margin: 0 auto;
 	margin-right: 5vw;
-	margin-left: 5vw;
+	
 	margin-top: 30vh;
+	text-align: center;
 }
 
 #subpage5 {
