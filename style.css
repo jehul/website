@@ -200,12 +200,22 @@ p {
 }
 .iconLink {
 	display: inline-block;	
+	margin: 0;
+	padding: 0;
+	line-height: 4em;
+}
+.iconLink2 {
+	display: inline-block;	
+	height: 2em;
+	line-height: 2em;
 }
 
 .logo {
 	display:inline-block; 
-	height: em;
 	width: 3em;
 }
 
-
+#mail {
+	width: 3.3em;
+	line-height: 4.2em;
+}
