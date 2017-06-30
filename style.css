@@ -140,9 +140,10 @@ p {
 	margin: 0 auto;
 	margin-right: 5vw;
 	margin-left: 5vw;
-	margin-top: 30vh;
+	margin-top: 20vh;
 
 }
+
 
 #page3 {
 	display: inline-block;
@@ -170,8 +171,9 @@ p {
 	margin: 0 auto;
 	margin-right: 5vw;
 	
-	margin-top: 30vh;
-	text-align: center;
+	margin-top: 20vh;
+	margin-left: 10vw;
+	
 }
 
 #subpage5 {
@@ -184,6 +186,9 @@ p {
 	margin-top: 30vh;
 }
 
+.playlist {
+	border-radius: .2em;
+}
 
 .email {
 	display: inline;
@@ -199,23 +204,16 @@ p {
 
 }
 .iconLink {
-	display: inline-block;	
+	display: inline-block;
 	margin: 0;
-	padding: 0;
-	line-height: 4em;
-}
-.iconLink2 {
-	display: inline-block;	
-	height: 2em;
-	line-height: 2em;
+	padding-right: 4em;
+	float: none;
+	width: .5em;
+	height: .5em;
 }
 
 .logo {
-	display:inline-block; 
 	width: 3em;
 }
 
-#mail {
-	width: 3.3em;
-	line-height: 4.2em;
-}
+
