@@ -4,6 +4,7 @@
 
 
 <head>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -31,6 +32,7 @@ $(document).ready(function(){
   });
 });
 </script>
+  
   <link href="style.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
   <title>Jehu Lee</title>
@@ -64,11 +66,40 @@ $(document).ready(function(){
       <a id="About Me" class="smooth"></a>
       <h1 class="pageHeader">Computer Science undergrad at UCLA. Always looking to learn.</h1>
       <p class="subintro"> Welcome to my webpage. Here, you will find my projects, monthly playlists, and possibly some other things. A little bit about me. I am interested in learning about artificial intelligence and the many ways it can be achieved.</p>
+
+      
     </div>
   </div>
 
   <div class="page" id="page3">
     <a id="Projects" class="smooth"></a>
+
+    <img class="slides" src="genequest.png">
+    
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;
+      </button>
+      <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+
+
   </div>
 
   <div class="page" id="page4">

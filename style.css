@@ -1,5 +1,6 @@
 * {
   color: #000000;
+  /*outline : 2px solid red;*/
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 
 div {
 	display: block;
+
 }
 
 #title {
@@ -71,7 +73,7 @@ div {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2em;
 	font-weight: bold;
-	width: 20em;
+	width: 15em;
 	margin-right: 5vw;
 	margin-left: 5vw;
 	text-align: left;
@@ -113,15 +115,15 @@ p {
 }
 
 .page {
-	height: 100vh;	
-	width: 100vw;
+	/*height: 100vh;	
+	width: 100vw;*/
+
 }
 
 #page1 {
 	height: 100vh;
 	width: 100vw;
 	display: flex;
-	/*background-image: url("http://www.thepentecostalchurch.net/files/SUTL%20Music%20Conference/Black-and-white-mountains-in-fog.jpg");*/
 	background-image: url('http://www.dejal.com/files/2015/first-mac/1.jpg');
 	background-color: red;
 	background-size: cover;
@@ -130,6 +132,8 @@ p {
 	background-blend-mode: difference;
 }
 #page2 {
+	height: 70vh;
+	width: 100vw;
 	display: inline-block;
 }
 
@@ -140,17 +144,41 @@ p {
 	margin: 0 auto;
 	margin-right: 5vw;
 	margin-left: 5vw;
-	margin-top: 20vh;
+	margin-top: 10vh;
+	border-radius: 
 
 }
+
 
 
 #page3 {
-	display: inline-block;
 	background-color: #d3d3d3;
+	display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden
+	
+}
+
+.slides {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}
+
+
+.button-right {
+	background-color: #f44336;
+	 width:200px;
+	 position: relative;
+
 }
 
 #page4 {
+	height: 90vh;
+	width: 100vw;
 	display: inline-block;
 }
 
@@ -159,31 +187,37 @@ p {
 }
 
 #page5 {
+	height: 50vh;
+	width: 100vw;
 	display: inline-block;
-	background-color: #d3d3d3;
+	/*background-color: #d3d3d3;*/
+	opacity: 0.90;
+	/*background-color: #f88379;*/
+	background: radial-gradient(circle closest-corner, #01facd, #af5c7e);
 
 }
 
 #subpage4 {
 	/*background-color: #FF0000;*/
 	display: : inline-block;
-	width: 100vw;
+	width: 90vw;
 	margin: 0 auto;
 	margin-right: 5vw;
 	
-	margin-top: 20vh;
+	margin-top: 10vh;
 	margin-left: 10vw;
+
 	
 }
 
 #subpage5 {
 	/*background-color: #FF0000;*/
 	display: : inline-block;
-	width: 50vw;
+	width: 40vw;
 	margin: 0 auto;
 	margin-right: 5vw;
-	margin-left: 5vw;
-	margin-top: 30vh;
+	margin-left: 30vw;
+	margin-top: 10vh;
 }
 
 .playlist {
