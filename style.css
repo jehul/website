@@ -31,6 +31,7 @@ body {
 }
 
 .nav {
+	z-index: 4;
 	position: fixed;
 	top: 1.2em;
 	height: 5em;
@@ -39,6 +40,7 @@ body {
 }
 
 .navList {
+	z-index: 4;
 	position: fixed;
 	top: 0;
 	width: 100vw;
@@ -50,6 +52,7 @@ body {
 
 }
 .navEntry {
+	z-index: 4;
 	color: #000000;
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: .25px;
@@ -211,7 +214,15 @@ p {
 }
 
 .playlistImg {
+	opacity: 0.6;
+	z-index: initial;
 	
+	-webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+
 	height: 170px;
 	width: 250px;
 	background-size: cover;
@@ -219,7 +230,7 @@ p {
 }
 
 #wave1{
-
+		z-index: initial;
 	background-image: url("http://i.imgur.com/niWz9Dr.jpg");
 }
 #wave2{
@@ -227,7 +238,7 @@ p {
 	background-image: url("https://petapixel.com/assets/uploads/2015/12/liquidmountain8.jpg");
 }
 .subpage4_1 {
-
+		z-index: initial;
 	width: 250px;
 	margin-right: 15px;
 	/*outline : 2px solid red;*/
