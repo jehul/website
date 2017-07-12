@@ -127,7 +127,7 @@ p {
 	background-blend-mode: difference;
 }
 #page2 {
-	height: 70vh;
+	height: 55vh;
 	width: 100vw;
 	display: inline-block;
 }
@@ -236,7 +236,7 @@ p {
 #subpage4 {
 	display: flex;
 	width: 100vw;
-	max-height: 90vh;
+	max-height: 100vh;
 	margin-right: 5vw;
 	
 	margin-top: 10vh;
@@ -292,4 +292,10 @@ p {
 }
 
 
-
+footer p {
+	font-weight: 200;
+	font-size: 14px;
+	font-family: 'Arial';
+	padding: 1em;
+	width: 80vw;
+}
