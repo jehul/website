@@ -40,110 +40,38 @@ $(document).ready(function(){
 
 <body>
 
-  
-  <div id="page1">
-    
-      <a id="Front Page" class="smooth"></a>
-     
-       <div id="nav">
+  <div class="nav">
 
-          <ul id="navList">
-          <li id="title"><a href="#page1" >JEHU LEE</a></li>
+          <ul class="navList">
+          <li class="title"><a href="#page1" >JEHU LEE</a></li>
           <li class="navEntry"><a href="#page2" > ABOUT ME</a></li>
-          <li class="navEntry"><a href="#page3" > PROJECTS</a></li>
-          <li class="navEntry"><a href="#page4"> PLAYLISTS</a></li>
-          <li class="navEntry"><a href="#page5"> CONTACT ME</a></li>
+          <li class="navEntry"><a href="projects.html" > PROJECTS</a></li>
+          <li class="navEntry"><a href="playlist.html"> PLAYLISTS</a></li>
+          <li class="navEntry"><a href="contacts.html"> CONTACT ME</a></li>
           </ul>
       </div> 
 
-      <p id="hello"></p>
+  <div id="page1">
+    
+      <a id="Front Page" class="smooth"></a>
+      <p class="hello">Hi, My name is <br> Jehu.</p>
+
       
   </div>
 
   
   <div class="page" id="page2">
+
+    <h1 class="pageHeader">Computer Science undergrad at UCLA. Always looking to learn.</h1>
+
+    <h2 class="subintro"> Welcome to my webpage. Here, you will find my projects, monthly playlists, and possibly some other things. A little bit about me. I am interested in learning about artificial intelligence and the many ways it can be achieved.</h2>
     <div id="subpage2">
       <a id="About Me" class="smooth"></a>
-      
-      <h1 class="pageHeader">Computer Science undergrad at UCLA. Always looking to learn.</h1>
-      <p class="subintro"> Welcome to my webpage. Here, you will find my projects, monthly playlists, and possibly some other things. A little bit about me. I am interested in learning about artificial intelligence and the many ways it can be achieved.</p>
-      
-    </div>
-  </div>
-
-  <div class="page" id="page3">
-    <a id="Projects" class="smooth"></a>
-
-    <img class="slides" src="genequest.png">
-    
-      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;
-      </button>
-      <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-
-      function plusDivs(n) {
-        showDivs(slideIndex += n);
-      }
-
-      function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = x.length}
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";  
-        }
-        x[slideIndex-1].style.display = "block";  
-      }
-      </script>
-
-
-  </div>
-
-  <div class="page" id="page4">
-    <div id="subpage4">
-      <a id="Other Things" class="smooth"></a>
-      <h1 class="pageHeader">Playlists. </h1>
-      
-      
-        <div class="subpage4_1">
-          <iframe id="playlist1" src="https://open.spotify.com/embed?uri=spotify:user:1253897466:playlist:50dnLZ6wOuyCDDUiHTRgAO&view=coverart&theme=white" frameborder="0" allowtransparency="true"></iframe>
-        </div>
-      
-        <div class="subpage4_1">
-          <iframe id="playlist2" src="https://open.spotify.com/embed?uri=spotify:user:1253897466:playlist:6kxiM8W8fSVIC2cbGhyrZK&view=coverart&theme=white" frameborder="0" allowtransparency="true"></iframe>
-        </div>
-
-        <div class="subpage4_1">
-          <iframe id="playlist3" src="https://open.spotify.com/embed?uri=spotify:user:1253897466:playlist:31LelICV1JCfiOW9ud5GYg&view=coverart&theme=white" frameborder="0" allowtransparency="true"></iframe>
-        </div>
-
-        <div class="subclass4_1">
-          <iframe id="playlist4" src="https://open.spotify.com/embed?uri=spotify:user:1253897466:playlist:1yhaSecPE0yqJJeDR5LHeG&view=coverart&theme=white" frameborder="0" allowtransparency="true"></iframe> 
-        </div>
 
     </div>
   </div>
 
-  <div class="page" id="page5">
-    <div id="subpage5">
-
-      <h1 >Let's get in touch. </h1>
-        <p class="email"> I'd be happy to talk to you. 
-        </p>
-        
-
-         <ul id="contactLogos">
-            <li class="iconLink"><a href="https://github.com/jehul"> <img src="GitHub-Mark-64px.png" class="logo" > </a></li>
-            <li class="iconLink"><a href="https://www.linkedin.com/in/jehu-lee-99a9aa140/"> <img src="In-Black-66px-R.png" class="logo" > </a></li>
-            <li class="iconLink"><a href="mailto:jehulee97@g.ucla.edu"> <img src="ic_local_post_office_black_24dp_2x.png" class="logo" id="mail"> </a></li>
-
-         </ul>
-    </div>
-  </div>
-
+  
 </body>
 
 </html>

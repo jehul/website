@@ -1,10 +1,13 @@
-* {
-  
+* {  
   /*outline : 2px solid red;*/
 }
 
 a {
 	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	padding: 10px;
+	text-decoration: none; /*gets rid of underlines*/
 }
 
 body {
@@ -15,7 +18,7 @@ body {
 }
 
 
-#title {
+.title {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 1.2em;
@@ -27,22 +30,23 @@ body {
   top: 0;
 }
 
-#nav {
+.nav {
 	position: fixed;
 	top: 1.2em;
 	height: 5em;
-	margin: auto;
+	
 	
 }
 
-#navList {
+.navList {
 	position: fixed;
-	top: 0em;
-	width: 100%;
+	top: 0;
+	width: 100vw;
 
 	text-align: center;
 	list-style-type: none;
 	background-color: #ffffff;
+	opacity: 0.9;
 
 }
 .navEntry {
@@ -53,37 +57,42 @@ body {
 	font-size: .9em;
 	display: inline-block;
 	margin-top: .2em;
+	margin-left: 0em;
 	float: none;
 }
 
-#hello {
-	font-family: 'Open Sans', sans-serif;
+.hello {
+	font-family: 'Roboto', sans-serif;
 	font-size: 5em;
 	font-weight: bold;
 	color: #ffffff;
-
 	text-align: left;
-	margin-right: 20vw;
-	margin-left: 40vw;
-	margin-top: 35vh;
+	margin-right: 0vw;
+	margin-left: 20vw;
+	margin-top: 33vh;
 }
 
 .pageHeader {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2em;
 	font-weight: bold;
-	width: 15em;
-	margin-right: 5vw;
-	margin-left: 0vw;
+	width: 22em;
+	margin-top: 10vh;
+	margin-left: 12vw;
+	margin-bottom: 0vh;
 	text-align: left;
 }
 
+
 .subintro {
 	font-size: 1.4em;
+	font-weight: 200;
 	width: 24em;	
 	margin-right: 5vw;
-	margin-left: 0vw;
+	margin-left: 12vw;
+	margin-top: 0;
 	text-align: left;
+
 }
 
 ul {
@@ -95,13 +104,6 @@ ul {
 
 li {
 	font-family: 'Roboto', sans-serif;
-}
-
-a {
-	font-family: 'Roboto', sans-serif;
-	display: block;
-	padding: 10px;
-	text-decoration: none; /*gets rid of underlines*/
 }
 
 p {
@@ -137,7 +139,7 @@ p {
 	margin: 0 auto;
 	margin-right: 5vw;
 	margin-left: 10vw;
-	margin-top: 10vh;
+	margin-top: 0vh;
 	border-radius: 
 
 }
@@ -170,59 +172,77 @@ p {
 }
 
 #page4 {
+	margin-bottom: 10em;
 	height: 100vh;
 	width: 100vw;
-	max-height: 100vh;
-	max-width: 100vw;
-
 	background-color: #ffffff;
-	outline : 2px solid red;
+	
 }
 
 
 #playlist1 {
-	margin: 0;
 	
-	height: 300px;
-	width: 200px;
-	margin-top: 0px
+	height: 340px;
+	width: 250px;
+	margin-top: 0px;
+
 	
 }
 #playlist2 {
 	margin: 0;
-	margin-top: 100px;
-	height: 300px;
-	width: 200px;
+	margin-top: 15px;
+	height: 340px;
+	width: 250px;
 }
 #playlist3 {
 	margin: 0;
 	margin-top: 0em;
-	
-	height: 300px;
-	width: 200px;
+	margin-bottom: 10px;
+	height: 340px;
+	width: 250px;
 }
 
 #playlist4 {
 	margin: 0;
-	margin-top: 1vw;
-	height: 300px;
-	width: 200px;
+	margin-top: 185px;
+	height: 340px;
+	width: 250px;
 	overflow: hidden;
 }
+
+.playlistImg {
+	
+	height: 170px;
+	width: 250px;
+	background-size: cover;
+	background-position: center;
+}
+
+#wave1{
+
+	background-image: url("http://i.imgur.com/niWz9Dr.jpg");
+}
+#wave2{
+
+	background-image: url("https://petapixel.com/assets/uploads/2015/12/liquidmountain8.jpg");
+}
 .subpage4_1 {
-	width: 200px;
-	float: left;
-	margin-right: .5em;
+
+	width: 250px;
+	margin-right: 15px;
+	/*outline : 2px solid red;*/
 }
 
 #subpage4 {
-	
-	width: 90vw;
-	margin: 0 auto;
+	display: flex;
+	width: 100vw;
+	max-height: 90vh;
 	margin-right: 5vw;
 	
 	margin-top: 10vh;
 	margin-left: 10vw;
+	/*outline : 2px solid red;*/
+
 }
 
 #subpage4 div {
@@ -230,38 +250,32 @@ p {
 }
 
 #page5 {
-	height: 50vh;
+	height: 100vh;
 	width: 100vw;
 	display: inline-block;
 	/*background-color: #d3d3d3;*/
-	opacity: 0.90;
+	/*opacity: 0.90;*/
 	/*background-color: #f88379;*/
-	background: radial-gradient(circle closest-corner, #01facd, #af5c7e);
+	/*background: radial-gradient(circle closest-corner, #01facd, #af5c7e);*/
+	background-color: #ffffff;
 
 }
 
 #subpage5 {
 	/*background-color: #FF0000;*/
-	text-align: center;
+	text-align: left;
 	display: inline-block;
-	width: 40vw;
+	width: 100vw;
+	height: 60vh;
 	margin: 0 auto;
 	
-	margin-left: 30vw;
-	margin-top: 10vh;
-}
-
-.email {
-	display: inline;
-	font-size: 1.4em;
-	
-
+	margin-left: 15vw;
+	margin-top: 20vh;
 	
 }
-
 
 #contactLogos {
-		margin-left: 0;
+		margin-left: 11em;
 
 }
 .iconLink {
@@ -269,12 +283,13 @@ p {
 	margin: 0;
 	padding-right: 4em;
 	float: none;
-	width: .5em;
-	height: .5em;
+	width: .50em;
+	height: .75em;
 }
 
 .logo {
-	width: 3em;
+	width: 40px;
 }
+
 
 
