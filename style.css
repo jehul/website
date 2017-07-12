@@ -126,8 +126,8 @@ p {
 	background-color: red;
 	background-size: cover;
 	background-position: center;
-
 	background-blend-mode: difference;
+	opacity: 0.8;
 }
 #page2 {
 	height: 55vh;
