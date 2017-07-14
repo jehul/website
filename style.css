@@ -73,17 +73,19 @@ body {
 	margin-right: 0vw;
 	margin-left: 20vw;
 	margin-top: 33vh;
+
 }
 
 .pageHeader {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2em;
 	font-weight: bold;
-	width: 22em;
+	width: 20em;
 	margin-top: 10vh;
 	margin-left: 12vw;
 	margin-bottom: 0vh;
 	text-align: left;
+	
 }
 
 
@@ -128,6 +130,8 @@ p {
 	background-position: center;
 	background-blend-mode: difference;
 	opacity: 0.8;
+
+
 }
 #page2 {
 	height: 55vh;
@@ -145,6 +149,14 @@ p {
 	margin-top: 0vh;
 	border-radius: 
 
+}
+
+#skills {
+	margin-top: 10vh;
+}
+
+#skills p{
+	font-family: "Courier New", Courier, monospace;
 }
 
 
@@ -250,7 +262,7 @@ p {
 	max-height: 100vh;
 	margin-right: 5vw;
 	
-	margin-top: 10vh;
+	margin-top: 1em;
 	margin-left: 10vw;
 	/*outline : 2px solid red;*/
 
@@ -280,13 +292,13 @@ p {
 	height: 60vh;
 	margin: 0 auto;
 	
-	margin-left: 15vw;
+	margin-left: 12vw;
 	margin-top: 20vh;
 	
 }
 
 #contactLogos {
-		margin-left: 11em;
+		margin-left: 12vw;
 
 }
 .iconLink {
@@ -306,7 +318,7 @@ p {
 footer p {
 	font-weight: 200;
 	font-size: 14px;
-	font-family: 'Arial';
+	font-family: "Courier New", Courier, monospace;
 	padding: 1em;
 	width: 80vw;
 }
