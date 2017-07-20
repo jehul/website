@@ -3,7 +3,8 @@
 
 <head>
 	 <link href="style.css" type="text/css" rel="stylesheet">
-	 <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800i,900i,900" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
 </head>
 
 
@@ -12,34 +13,65 @@
 	<div class="nav">
 
           <ul class="navList">
-          <li class="title"><a href="index.html" >JEHU LEE</a></li>
-          <li class="navEntry"><a href="index.html" > ABOUT ME</a></li>
-          <li class="navEntry"><a href="projects.html" > PROJECTS</a></li>
-          <li class="navEntry"><a href="playlist.html"> PLAYLISTS</a></li>
-          <li class="navEntry"><a href="#page5"> CONTACT ME</a></li>
+          
+          
+          <li class="navEntry">
+          	<a class="linkBlack" href="index.html" > 
+				<div id="layer1" class="layeredNav">About Me</div>
+				<div id="layer2" class="layeredNav">About Me</div>
+			</a>
+          </li>
+
+          <li class="navEntry">
+          	<a class="linkBlack" href="projects.html" > 
+				<div id="layer1" class="layeredNav">Projects</div>
+				<div id="layer2" class="layeredNav">Projects</div>
+			</a>
+          </li>
+
+          <li class="navEntry">
+          	<a class="linkBlack" href="playlist.html" > 
+				<div id="layer1" class="layeredNav">Playlists</div>
+				<div id="layer2" class="layeredNav">Playlists</div>
+			</a>
+          </li>
+
+          <li class="navEntry">
+          	<a class="linkBlack" href="contacts.html" > 
+				<div id="layer1" class="layeredNav">Contact Me</div>
+				<div id="layer2" class="layeredNav">Contact Me</div>
+			</a>
+          </li>
+          <!--<li class="navEntry"><a class="linkBlack" href="projects.html" > Projects</a></li>
+          <li class="navEntry"><a class="linkBlack" href="playlist.html"> Playlists</a></li>
+          <li class="navEntry"><a class="linkBlack" href="contacts.html"> Contact Me</a></li>
+          -->
+
+
           </ul>
     </div> 
+	
 
 	<div class="page" id="page5">
 	    
 	    <div id="subpage5">
 
-	    <h1 class="pageHeader">Let's get in touch. </h1>
-	      <h2 class="subintro"> I'd be happy to talk to you. </h2>
-	         <ul id="contactLogos">
-	            <li class="iconLink"><a href="https://github.com/jehul"> <img src="GitHub-Mark-64px.png" class="logo" > </a></li>
-	            <li class="iconLink"><a href="https://www.linkedin.com/in/jehu-lee-99a9aa140/"> <img src="In-Black-66px-R.png" class="logo" > </a></li>
-	            <li class="iconLink"><a href="mailto:jehulee97@g.ucla.edu"> <img src="ic_local_post_office_black_24dp_2x.png" class="logo" id="mail"> </a></li>
-
-	         </ul>
+	    
+	    <h1 class="contactLink link1"><a id="redContact" href="https://github.com/jehul"> Github</a></h1>
+	    <h1 class="contactLink link2"><a id="blackContact" href="https://www.linkedin.com/in/jehu-lee-99a9aa140/">  LinkedIn </a></h1>
+	    <h1 class="contactLink link3"><a id="blueContact" href="mailto:jehulee97@g.ucla.edu"> Email </a></h1>
+	    <h1 class="contactLink link4"><a id="blackContact" href="mailto:jehulee97@g.ucla.edu"> Resume </a></h1>
+	      
+	         
 	    </div>
   	</div>
 
 </body>
 
-<footer>
+<footer class="whiteFooter">
   <p>&copy2017 Jehu Lee.</p>
 </footer>
+
 
 
 </html>

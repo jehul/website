@@ -3,32 +3,59 @@
 
 <head>
 	 <link href="style.css" type="text/css" rel="stylesheet">
-	 <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500" rel="stylesheet">
+	
 </head>
 
 <body>
  	
  	<div class="nav">
 
-          <ul class="navList">
-          <li class="title"><a href="index.html" >JEHU LEE</a></li>
-          <li class="navEntry"><a href="index.html" > ABOUT ME</a></li>
-          <li class="navEntry"><a href="projects.html" > PROJECTS</a></li>
-          <li class="navEntry"><a href="playlist.html"> PLAYLISTS</a></li>
-          <li class="navEntry"><a href="contacts.html"> CONTACT ME</a></li>
+          <ul class="navList">  
+          
+	          <li class="navEntry">
+	          	<a class="linkBlack" href="index.html" > 
+					<div id="layer1" class="layeredNav">About Me</div>
+					<div id="layer2" class="layeredNav">About Me</div>
+				</a>
+	          </li>
+
+	          <li class="navEntry">
+	          	<a class="linkBlack" href="projects.html" > 
+					<div id="layer1" class="layeredNav">Projects</div>
+					<div id="layer2" class="layeredNav">Projects</div>
+				</a>
+	          </li>
+
+	          <li class="navEntry">
+	          	<a class="linkBlack" href="playlist.html" > 
+					<div id="layer1" class="layeredNav">Playlists</div>
+					<div id="layer2" class="layeredNav">Playlists</div>
+				</a>
+	          </li>
+
+	          <li class="navEntry">
+	          	<a class="linkBlack" href="contacts.html" > 
+					<div id="layer1" class="layeredNav">Contact Me</div>
+					<div id="layer2" class="layeredNav">Contact Me</div>
+				</a>
+	          </li>
+
           </ul>
     </div> 
 
 
 	<div class="page" id="page4">
-    	<h1 class="pageHeader">Playlists.</h1>
-    	<h2 class="subintro"> Here's some stuff I like to listen to. I'll update this monthly. </h2>
-
+    	
+    	<div id="playlistIntro">
+			<h1 class="pageHeader">Playlists.</h1>
+    		<h2 class="subintro"> Here's some stuff I like to listen to. I'll update this monthly. </h2>
+    	</div>
+    	
     	<div id="subpage4">
-
-     	 <a id="Other Things" class="smooth"></a>
-            
-      
+			
+     	 	
+          
 	        <div class="subpage4_1">
 	          	<iframe id="playlist1" src="https://open.spotify.com/embed?uri=spotify:user:1253897466:playlist:1yhaSecPE0yqJJeDR5LHeG&view=coverart&theme=white" frameborder="0" allowtransparency="true"></iframe>
 	        </div>
@@ -48,15 +75,12 @@
 	        	
 	         	<iframe id="playlist4" src="https://open.spotify.com/embed?uri=spotify:user:1253897466:playlist:7tt1IoLJFGkz9Ns6aeg9FQ&view=coverart&theme=white" frameborder="0" allowtransparency="true"></iframe>
 	        </div>
-
-
-
-    </div>
-  </div>
+	  	</div>
+ 	</div>
 </body>
 
-<footer>
-  <p>&copy2017 Jehu Lee.</p>
+<footer class="whiteFooter">
+  <p>&copy2017 Jehu Lee. </p>
 </footer>
 
 

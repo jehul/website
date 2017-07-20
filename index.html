@@ -6,84 +6,95 @@
 <head>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
   
   <link href="style.css" type="text/css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
   <title>Jehu Lee</title>
 </head>
 
 <body>
+  
+  
 
-  <div class="nav">
-
-          <ul class="navList">
-          <li class="title"><a href="#page1" >JEHU LEE</a></li>
-          <li class="navEntry"><a href="#page2" > ABOUT ME</a></li>
-          <li class="navEntry"><a href="projects.html" > PROJECTS</a></li>
-          <li class="navEntry"><a href="playlist.html"> PLAYLISTS</a></li>
-          <li class="navEntry"><a href="contacts.html"> CONTACT ME</a></li>
-          </ul>
-      </div> 
 
   <div id="page1">
-    
+      
       <a id="Front Page" class="smooth"></a>
-      <p class="hello">Hi, My name is <br> Jehu.</p>
+
+
+      <div ><h1 id="logo1" class="jehulee1">Jehu Lee</h1></div>
+      <div ><h1 id="logo2" class="jehulee1">Jehu Lee</h1></div>
+      <div ><h1 id="logo3" class="jehulee1">Jehu Lee</h1></div>
+
+      <div class="bash">
+          <div class=fakeMenu>
+            <div class="fakeButtons fakeClose"></div>
+            <div class="fakeButtons fakeMinimize"></div>
+            <div class="fakeButtons fakeZoom"></div>
+          </div>
+          <div class="fakeScreen">
+
+            
+
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            
+
+           
+          </div>
+      </div>
 
       
   </div>
 
+  <div class="page2">
   
-  <div class="page" id="page2">
-
-    <h1 class="pageHeader">Computer Science Undergrad at UCLA. Software Developer in training.</h1>
-
-    <h2 class="subintro"> Welcome to my webpage. Here, you will find my projects, monthly playlists, and anything else I think is cool. </h2>
-    <div id="subpage2">
-      <a id="About Me" class="smooth"></a>
-
-    </div>
-  </div>
-
-  <div id="skills">
-  <p>
-  Jehu Lee<br><br>University of California, Los Angeles<br><br>
-    proficiency in: C/C++, Python, HTML, CSS, Javascript
-  </p>
 
   </div>
 
+   
+
+      
+
   
+
+  <script src="typed.js"></script>
+  <script>
+
+    var typed = new Typed(".line1", {
+  strings: [
+    "jehu@lee:~$ "
+  ],
+  showCursor: false
+});
+
+    var options = {
+      strings: ["echo jehulee.txt <br>"],
+      showCursor:false,
+      typeSpeed: 40
+    }
+    var typed = new Typed(".line2", options);
+  
+  var options2 = {
+      strings: ["<br>Hi. Welcome to my website.<br> You will find my <a class=page1Link href=projects.html>projects</a>, <a class=page1Link href=playlist.html>monthly playlists</a>, <a class=page1Link href=contacts.html>contact information</a>, and anything else I think is cool.<br><br>I'm a Computer Science undergrad at the University of California, Los Angeles. I plan on becoming a software engineer after I finish up my degree. Please feel free to contact me for any and all things."],
+      startDelay: 1500,
+      showCursor: true,
+      cursorChar: '|',
+      autoInsertCss: true, 
+      typeSpeed: 20
+    }
+    var typed = new Typed(".line3", options2);
+ 
+
+  </script>
+
 </body>
 
 
-<footer>
+<footer class="whiteFooter">
   <p>&copy2017 Jehu Lee.</p>
 </footer>
 
